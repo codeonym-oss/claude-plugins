@@ -12,7 +12,7 @@ Claude Code and Codex. The repository name remains `claude-plugins` for existing
 | plugin | install | what it does |
 |---|---|---|
 | [groundwork](https://github.com/codeonym-oss/groundwork) | `/plugin install groundwork@codeonym-oss` | plan work before building it: grill an idea into epics, stories and tickets, keep every decision, build each ticket with your approval at every step |
-| [design skills](https://github.com/codeonym-oss/design-skills) | `/plugin install codeonym-oss@codeonym-oss` | design skills with a reproducible headless toolchain (Blender, GIMP, Inkscape, Krita, Scribus, darktable, ffmpeg) |
+| [design skills](https://github.com/codeonym-oss/design-skills) | `/plugin install design-skills@codeonym-oss` | design skills with a reproducible headless toolchain (Blender, GIMP, Inkscape, Krita, Scribus, darktable, ffmpeg) |
 
 ## Codex
 
@@ -27,7 +27,7 @@ codex plugin add groundwork@codeonym-oss
 To install Design Skills as well:
 
 ```bash
-codex plugin add codeonym-oss@codeonym-oss
+codex plugin add design-skills@codeonym-oss
 ```
 
 Start a new Codex session and use `/skills` to find the installed skills. For example, ask Codex to use
@@ -41,8 +41,12 @@ codex plugin list
 ```
 
 The Codex catalog is `.agents/plugins/marketplace.json`; the Claude catalog remains
-`.claude-plugin/marketplace.json`. Both expose the same plugin names and repositories. When adding a plugin,
-update both catalogs. Registering a marketplace does not install all its plugins; each plugin is selected explicitly.
+`.claude-plugin/marketplace.json`. Both expose the same plugin names and repositories. The marketplace is
+`codeonym-oss`; the plugins are `groundwork` and `design-skills`. When adding a plugin, update both catalogs.
+Registering a marketplace does not install all its plugins; each plugin is selected explicitly.
+
+Design Skills was previously named `codeonym-oss`. Existing installations should follow its
+[plugin rename migration](https://github.com/codeonym-oss/design-skills#migrating-from-the-old-plugin-name).
 
 Codex installation has been checked with both plugins in an isolated configuration. This verifies packaging,
 skills and bundled references; it does not establish that every skill workflow has been tested in Codex or install

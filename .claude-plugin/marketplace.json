@@ -14,7 +14,7 @@
       "keywords": ["planning", "tickets", "decisions", "grilling", "github", "gitlab", "jira", "linear"]
     },
     {
-      "name": "codeonym-oss",
+      "name": "design-skills",
       "source": { "source": "github", "repo": "codeonym-oss/design-skills" },
       "description": "Design skills with a reproducible headless toolchain (Blender, GIMP, Inkscape, Krita, Scribus, darktable, ffmpeg, ImageMagick) in versioned containers.",
       "category": "design",
