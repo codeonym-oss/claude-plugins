@@ -27,6 +27,19 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Design"
+    },
+    {
+      "name": "flow-reel",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/codeonym-oss/flow-reel.git",
+        "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
     }
   ]
 }
