@@ -14,6 +14,7 @@ Claude Code and Codex. The repository name remains `claude-plugins` for existing
 | [groundwork](https://github.com/codeonym-oss/groundwork) | `/plugin install groundwork@codeonym-oss` | plan work before building it: grill an idea into epics, stories and tickets, keep every decision, build each ticket with your approval at every step |
 | [design skills](https://github.com/codeonym-oss/design-skills) | `/plugin install design-skills@codeonym-oss` | design skills with a reproducible headless toolchain (Blender, GIMP, Inkscape, Krita, Scribus, darktable, ffmpeg) |
 | [flow-reel](https://github.com/codeonym-oss/flow-reel/tree/main/plugin) | `/plugin install flow-reel@codeonym-oss` | narrated, polished reels of your web app's features: plan, explore, script with comments, sounds and effects, compose and screen (needs flow-reel 0.2 and Docker or Podman) |
+| [project-reporting](https://github.com/codeonym-oss/project-reporting) | `/plugin install project-reporting@codeonym-oss` | short reports of finished work: read git, the tracker, plans and demos for any period, keep one file per work item, write a report in your own format and languages |
 
 ## Codex
 
@@ -35,6 +36,12 @@ To install flow-reel's plugin:
 
 ```bash
 codex plugin add flow-reel@codeonym-oss
+```
+
+To install project-reporting:
+
+```bash
+codex plugin add project-reporting@codeonym-oss
 ```
 
 Start a new Codex session and use `/skills` to find the installed skills. For example, ask Codex to use

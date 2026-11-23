@@ -26,6 +26,13 @@
       "description": "Make narrated, polished reels of your web app's features: plan the story, explore the app, write a flow-reel script with comments, sounds and effects, compose it and screen the result.",
       "category": "productivity",
       "keywords": ["demo", "video", "narration", "playwright", "walkthrough", "screen-recording"]
+    },
+    {
+      "name": "project-reporting",
+      "source": { "source": "github", "repo": "codeonym-oss/project-reporting" },
+      "description": "Short reports of a project's finished work: read git, the tracker, plans and demos for any period, keep one file per work item, and write a report its readers understand, in your own format and languages.",
+      "category": "productivity",
+      "keywords": ["report", "weekly-report", "client", "demo", "sprint", "git", "jira", "github", "gitlab"]
     }
   ]
 }
